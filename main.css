@@ -1,0 +1,50 @@
+body {
+	box-sizing: border-box;
+}
+
+header {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	text-align: center;
+}
+
+main {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+fieldset {
+	border: none;
+}
+
+.sectional {
+	border: 1px solid black;
+	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 60%;
+	margin-bottom: 100px;
+}
+
+h3 {
+	padding: 0;
+	margin: 10px;
+}
+
+.js-added {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+.js-goto-form {
+	margin-top: 20px;
+}

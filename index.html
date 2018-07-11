@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Decision Maker</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+	<header role="banner">
+		<h1>Decision Maker</h1>
+	</header>
+	<main role="main">
+		<section class="baseLevel">
+			<div class="sectional">
+				<h3>Want to use the "go to" list?</h3>
+				<button class="js-goto">Choose from "Go To" List</button>
+				<form class="js-goto-form">
+					<fieldset>
+						<legend>Want to add to the "go to" list before making a decision?</legend>
+						<input type="text" name="addToGoTo" class="js-add-input">
+						<button type="submit" class="js-add-goto">Add to "Go To"</button>
+					</fieldset>
+				</form>
+				<p>Additional choices: <span class="js-goto-added"></span></p>
+			</div>
+		</section>
+		<section class="baseLevel">
+			<div class="sectional">
+				<h3>Create a new list to choose from here.</h3>
+				<form class="js-form">
+					<fieldset>
+						<legend>Input the choices you'd like to choose from. The list can be as long or as short as you'd like.</legend>
+						<input type="text" name="choice" class="js-input">
+						<button type="submit" class="js-submit">Add Choice</button>
+					</fieldset>
+				</form>
+				<button class="js-decide">Decide!</button>
+				<div>
+					<p>Items to choose from: <span class="js-added"></span></p>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="js-decision"></div>
+		</section>
+	</main>
+
+</body>
+</html>
